@@ -1,0 +1,47 @@
+body{
+    background-color: aqua;
+}
+
+th{
+    background-color: black;
+    width: 320px;
+    height: 100px;
+    color: white;
+    text-align: right;
+    font-size: 50px;
+    padding-right: 10px;
+}
+
+table{
+    margin: auto;
+    border-spacing: 0px;
+}
+
+.abc{
+    width: 60px;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(238, 234, 227);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+td{
+    border: solid 1px black;
+}
+
+#zzz{
+    background-color: rgb(226, 144, 22);
+}
+
+td:hover{
+    background-color: brown;
+    color: white;
+    transition: ease 0.8s;
+    cursor: pointer;
+}
+
+#zzz:hover{
+    background-color: blue;
+}

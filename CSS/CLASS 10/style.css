@@ -1,0 +1,8 @@
+.main{
+    background-color: aqua;
+     width: 50%;        
+    /* border-width:20px;
+     border-color: black;
+     border-style: solid; */
+     border: 10px groove  blue;    
+}

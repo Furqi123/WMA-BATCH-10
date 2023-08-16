@@ -1,0 +1,58 @@
+/* ul{ */
+    /* list-style-type: lower-roman;
+    list-style-position: inside; */
+    /* list-style: inside lower-alpha;
+} */
+
+/* table,td,tr,th{
+    border: 3px solid black;
+   
+}
+
+td:hover{
+    background-color: black;
+    color: wheat;
+    transform: scale(1.0);
+    transition: ease 1s;
+}
+
+td{
+    text-align: center;
+}
+
+table{
+    margin: auto;
+    background-color: aquamarine;
+    width: 80%;
+    padding: 5px;
+    border-spacing: 10px;
+}
+
+.abc{
+    background-color: yellow;
+}
+
+#abc{
+    background-color: gray;
+    color: aliceblue;
+} */
+
+/* label{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+
+#pass{
+    background-image: url('https://www.svgrepo.com/show/353106/eye.svg');
+    background-size: 20px;
+    background-repeat: no-repeat;
+   background-position: left;
+   padding-left: 20px;
+} */
+/* 
+*{
+    background-image: url('https://www.svgrepo.com/show/353106/eye.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+} */

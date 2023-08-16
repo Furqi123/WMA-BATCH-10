@@ -1,0 +1,502 @@
+ @font-face {
+    font-family: 'poppin';
+    src: url('./font/Poppins-Regular.ttf');
+ }
+
+ body{
+   overflow-x: hidden;
+ }
+
+ body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+  }
+
+  #nav li{
+    display: inline-block;
+    width: 120px;
+    text-transform: capitalize;
+    padding-top: 3px;
+    padding-bottom: 18px;
+    color: rgb(107, 100, 100);
+    font-family: 'poppin';
+    cursor: pointer;
+    font-weight: 600;
+   
+}
+
+#nav{
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    overflow-x: hidden;
+}
+
+#nav li:hover{
+    color: green;
+    transition: ease 1.3s;
+    
+}
+
+#nav ul{
+    border-bottom: solid 1px gray;
+   
+   
+}
+
+img{
+    width: 100px;
+    position: relative;
+    top: 10px;
+    left: -20px;
+}
+
+.btn input{
+    border: solid 2px rgb(160, 158, 158);
+    width: 300px;
+    height: 40px;
+    border-radius: 50px;
+    position: relative;
+    top: -70px;
+    left: 800px;
+    bottom: -30px;
+    font-size: medium;
+    font-family: 'poppin';
+    padding-left: 5px;
+}
+
+
+.btn .log{
+    position: relative;
+    top: -70px;
+    left: 820px;
+    bottom: -30px;
+    font-family: 'poppin';
+    background-color: white;
+    border: none;
+    font-size: 18px;
+    color: green;
+    font-weight: 600;
+}
+
+.btn .sign{
+    position: relative;
+    top: -70px;
+    left: 830px;
+    bottom: -34px;
+    font-family: 'poppin';
+    background-color: green;
+    border-radius: 50px;
+    width: 110px;
+    height: 40px;
+    border: none;
+    font-weight: 500;
+    color: white;
+    font-size: 18px;
+}
+
+.sign:hover{
+  background-color: rgb(254, 245, 245,);
+}
+
+.skill a{
+   margin: 10px;
+    color: rgb(82, 80, 80);
+    font-family: 'poppin';
+    text-decoration: none;
+    font-weight: 600;
+    position: relative;
+    top: -30px;
+}
+
+.skill a:hover{
+    text-decoration: underline;
+}
+
+#slider{
+    overflow-x: hidden;
+}
+
+
+
+.para {
+    font-size: 80px;
+    position: relative;
+    left: 50px;
+    top: -80px;
+    color: green;
+    font-weight: 600;
+}
+
+.para2{
+    font-family: 'poppin';
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    top: -160px;
+    left:50px ;
+    color: rgb(82, 80, 80);
+}
+
+.get{
+    font-family: 'poppin';
+    background-color: green;
+    border-radius: 50px;
+    width: 200px;
+    height: 40px;
+    border: none;
+    font-weight: 500;
+    color: white;
+    font-size: 18px;
+    position: relative;
+    top: -160px;
+    left: 50px;
+}
+
+.sliderimg{
+    width: 450px;
+    float: right;
+    position: relative;
+    top: -430px;
+    overflow: hidden;
+}
+
+
+.para3{
+    font-family: 'poppin';
+    color: rgb(135, 129, 129);
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    top: -150px;
+    left: 50px;
+
+}
+
+.spon{
+    width: 300px;
+    position: relative;
+    left: 30px;
+    top: -170px;
+    overflow: hidden;
+}
+
+
+.img5{
+   position: relative;
+   left: 20px;
+   top: -380px;
+   right: 130px;
+    width: 1000px;
+    height: 500px;
+
+    
+}
+
+
+.p1{
+    font-size: 30px;
+    font-family: 'poppin';
+    font-weight: 600;
+    position: relative;
+    top: -380px;
+    left: 50px;
+}
+
+.p2{
+    font-family: 'poppin';
+    color: gray;
+    font-weight: 600;
+    position: relative;
+    top: -400px;
+    left: 50px;
+}
+
+span{
+    color: green;
+    text-decoration: underline;
+}
+
+.feild{
+    width: 270px;
+    height: 130px;
+    border-radius: 10px;
+    background-color: rgb(246, 245, 244);
+    position: relative;
+    top: -400px;
+    left: 50px;
+    display: inline-block;
+    margin: 15px;
+}
+
+.ding{
+    font-size: 20px;
+    font-family: 'poppin';
+    font-weight: 300;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.p3{
+    padding-left: 20px;
+    font-family: 'poppin';
+    color: gray;
+    font-weight: 500;
+}
+
+.p4{
+    position: relative;
+    top: -42px;
+    right:-130px;
+    font-family: 'poppin';
+    color: gray;
+    font-weight: 500;
+}
+
+/* #category{
+    display: flex;
+    align-items: baseline;
+} */
+
+
+.feild1{
+    width: 270px;
+    height: 130px;
+    border-radius: 10px;
+    background-color: rgb(246, 245, 244);
+    position: relative;
+    top: -400px;
+    left: 50px;
+    display: inline-block;
+    margin: 15px;      
+   
+}
+
+
+.feild:hover{
+    background-color: rgb(224, 217, 217);
+}
+
+.feild1:hover{
+    background-color: rgb(224, 217, 217);
+}
+
+
+
+
+#join img{
+    width: 450px;
+    height: 420px;
+    position: relative;
+    top: -300px;
+    left: 100px;
+}
+
+
+.p5{
+    font-size: 35px;
+    font-family: 'poppin';
+    position: relative;
+    top: -780px;
+    left: 570px;
+
+}
+
+#join .ul2{
+    font-family: 'poppin';
+    font-size: 20px;
+    position: relative;
+    top: -790px;
+    left: 550px;
+
+}
+
+.ul2 p{
+    font-family: 'poppin';
+    font-size: 14px;
+    color: gray;
+}
+
+
+.free{
+    font-family: 'poppin';
+    background-color: green;
+    border-radius: 50px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    font-weight: 500;
+    color: white;
+    font-size: 15px;
+    position: relative;
+    top: -780px;
+    left: 600px;
+}
+
+
+.hire{
+    font-family: 'poppin';
+     color: aquamarine;
+    background-color: rgb(160, 33, 33);
+    border: solid 2px green;
+    border-radius: 50px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    font-weight: 500;
+    color: white;
+    font-size: 15px;
+    position: relative;
+    top: -780px;
+    left: 630px;
+}
+
+.main{
+    
+    width: 900px;
+    height: 500px;
+    background-color: rgb(3, 49, 58);
+    border-radius: 10px;
+    position: relative;
+    top: -650px;
+    left: 150px;
+}
+
+.pa1{
+    font-family: 'poppin';
+    color: white;
+    padding: 20px;
+
+}
+
+.pa2{
+    font-family: 'poppin';
+    font-size: 40px;
+    color: white;
+    padding: 20px;
+    font-weight: 600;   
+    position: relative;
+    top: -50px;
+}
+
+.pa3{
+    font-family: 'poppin';
+    color: white;
+    padding: 20px;
+    position: relative;
+    top: -100px;
+    font-size: 15px;
+}
+
+.main li{
+
+    position: relative;
+    top: -120px;
+    color: white;
+    font-family: 'poppin';
+    font-size: 15px ;
+}
+
+
+.started{
+    
+        font-family: 'poppin';
+        background-color: rgb(243, 246, 243);
+        border-radius: 50px;
+        width: 150px;
+        height: 40px;
+        border: none;
+        font-weight: 500;
+        color: green;
+        font-size: 15px;
+        position: relative;
+        top: -590px;
+        left: 20px;
+        font-weight: 600;
+       
+    }
+    
+
+    .img7{
+        height: 500px;
+        width: 300px;
+        position: relative;
+        top: -550px;
+        left: 550px;
+        right: 100px;
+    }
+
+    .img8{
+        width: 1000px;
+        height: 500px;
+        position: relative;
+        top: -520px;
+        border-radius: 10px;
+    }
+
+
+    .par1{
+        font-family: 'poppin';
+        color: white;
+        font-size: 20px;
+        position: relative;
+        top: -1020px;
+        left: 160px;
+    }
+
+    .par2{
+        font-size: 50px;
+        font-weight: 600;
+        position: relative;
+        top: -1050px;
+        color: white;
+        font-family: 'poppin';
+        left: 180px;
+    }
+
+
+    .par3{
+        font-family: 'poppin';
+        position: relative;
+        font-weight: 600;
+        color: white;
+        top: -1060px;
+        left: 180px;
+    }
+
+    .ggg{
+        width: 270px;
+        height: 120px;
+        border-radius: 10px;
+        background-color: green;
+        font-size: 20px;
+        padding-left: 10px;    
+        font-family: 'poppin';
+        color: white;
+        font-weight:600;   
+        display: inline-block;    
+        margin: 10px;    
+        cursor: pointer;                                                 
+    }
+
+    .eee{
+        font-size: 15px;
+        font-weight: 500;
+        position: relative;
+        top: -10px;
+        cursor: pointer;
+    }
+
+    .ggg:hover{
+        background-color: white;
+        color: green;
+    }
+
+
+
+.container{
+    position: relative;
+    top: -1070px;
+    left: 195px;
+}

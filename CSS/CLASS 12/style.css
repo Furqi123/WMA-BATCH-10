@@ -1,0 +1,53 @@
+
+li{
+    text-transform: capitalize;
+}
+
+.btn{
+    width: 100px;
+   
+    position: sticky;
+    bottom: 0px;
+    left: 1400px;
+} 
+
+/* body{
+    background-color: gray;
+}
+
+
+.black{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.white{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+
+ img{
+
+    /* position: relative;
+    top: -100px; */
+    /* position: absolute;
+    top: 10px; */
+    /* left: 500px; */
+    /* right: 110px; 
+} */
+
+/* .list{
+    background-color: aqua;
+    position: sticky;
+    top: 0px;
+}
+
+.list li{
+    width: 300px;
+    display: inline-block;
+} */
