@@ -1,28 +1,47 @@
-// data types
-//  jis cheez ke age () brcket ajye to yeh function h
+
+// jis cheez ke aage do round bracket agye use kehte h function 
 // function 2 tarah ke hote h user defined or built in function
-// agr inveted coma mn kuxh likhenge to yeh string h 
-// agr koi number hoto wo integer h 
-// point mn number honge to float kahenge
+// built in function js bnati h aur user defined function hum bnate h 
+
+// alert("hello world"); // string
+// alert(35435) // integer
+// alert(7.8) //float
+
+// data types
+// yeh 4 datatypes h js ki
+//1) string (single ya double quotation mn koi bh cheez ayigi wo string hogi)
+//2) integer (saare numbers)
+//3)float (jb bhi point mn cheez ayigi wo float hogi)
+//4)Boolean
+
+// kisi bhi chees ko store krne k kaam var se hota h
+// var abc = "hello world";
+// alert("abc");
+
+// alert("hello world");
+// document.write("<h1>"+"hello furi"+"</h1>");
+
+//kbhi bhi variable ka naam number se start nh hoga
+// srf "_" or "$" variable ke naam mn use krskte h 
+// reserved keyword use nh krskte 
+// variable ke naam mn space nh deskte
 
 
-// var abc = "Furqan Azeem";
-// alert(abc);
+//variable naam standered rkhne ke 2 tariqe hote h
+//1)camelcase (userName,firstName)
+//2)
+
+
+// it is called define error
+// var firstName = "furqan";
+// var userName = "furi";
+// document.write(a);
 
 
 
-//  document.write('<h1>THIS IS JS 1ST CLASS</h1>');
-// document.write('<h1>' + 'hello world' + '</h1>')
-
-// var firstName = "FURQAN";
-// var lasttName = "AZEEM";
-// document.write(firstName + " " + lasttName);
-
-
-// var num1 = "2";
-// var num2 = 4;
-// document.write(num1 * num2)
-// ;
+// var num1 = "5";
+// var num2 = "1"
+// document.write(num1 - num2);
 
 
 // + ke sign pr concat krega us soorat mn jb string hogi
@@ -31,35 +50,41 @@
 // same minus wali cheez * / % pr apply hogi
 // jb yeh string ho jisme alphapet ho or ek integer ho 
 
-// var num1 = prompt("enter your first number")
-// document.write(num1);
+// string + string = concatenate
+// string + ineger = concatenate
+//integer + integer = concatenate
+// string - ineger = subtract
+// string * ineger = multiplication
+// string / ineger = division
+// string - string = subtract
+// string * string = multiplication
+// string / string = division
 
 
 
+// var num1 = +prompt("Enter number 1");
+// var num2 = +prompt("Enter number 2");
+// var add = num1 + num2;
+// var sub = num1 - num2;
+// var mul = num1 * num2;
+// var div = num1 / num2;
+// var modul = num1 % num2; 
 
-var num1 = +prompt("ENTER 1ST VALUE");
-var num2 = +prompt("ENTER 2ND VALUE");
-var add = num1 + num2;
-var sub = num1 - num2;
-var mul = num1 * num2;
-var div = num1 / num2;
-var modul = num1 % num2;
-
-document.write(
-  "<table border = 1>" +
-  "<tr>" +
-  "<th>" + "ADDITION" + "</th>" +
-  "<th>" + "SUBTRACTION" + "</th>" +
-  "<th>" + "MULTIPLICATION" + "</th>" +
-  "<th>" + "DIVITION" + "</th>" +
-  "<th>" + "MODULUS" + "</th>" +
-  "</tr>" +
-  "<tr>" + 
-   "<td>" + add + "</td>" +
-   "<td>" + sub + "</td>" +
-   "<td>" + mul + "</td>" +
-   "<td>" + div + "</td>" +
-   "<td>" + modul + "</td>" +
-  "</tr>" +
-  "</table>"
-)
+// document.write(
+//   "<table border=1px>" +
+//    "<tr>" +
+//     "<th>" + "ADDITION" + "</th>" +
+//     "<th>" + "SUBTRACTION" + "</th>" +
+//     "<th>" + "MULTIPLICATION" + "</th>" +
+//     "<th>" + "DIVISION" + "</th>" +
+//     "<th>" + "MODULUS" + "</th>" +
+//    "</tr>" +
+//    "<tr>" + 
+//    "<td>" + add + "</td>" +
+//    "<td>" + sub + "</td>" +
+//    "<td>" + mul + "</td>" +
+//    "<td>" + div + "</td>" +
+//    "<td>" + modul + "</td>" +
+//    "</tr>" +
+//    "</table>"
+// )

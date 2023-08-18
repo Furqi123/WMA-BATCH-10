@@ -1,95 +1,72 @@
-// // if statement
-
-// // var a = 'Saad'
-// // == value check karunga
-
-// // if(5 === "5"){
-// //     document.write('han sahi hai')
-// // }
-// // else{
-// //     document.write('galat hai')
-// // }
+// if statment
 
 
-// // var email = 'admin'
-// // var password = 'Admin'
-// // var email = prompt('Enter Email');
-// // var password = prompt('Enter Password');
+// assigning operator = value assign krta h
+// == value check krta h
+// === value ke sath data type bh check krta h
+// && ka operator left side bh check krta h aur right side bh check krta h agr
+// dono condition true hojayengi tabhi jakr wo program ko execute krega.
+// || ka operator yeh krta h ke left or right mn se koi bhi ek condition true hojaygi
+// program execute hojaega
+//< less than
+//> greater than
+// <= less than equal to
+//>= greter than equal to
+//!= not equal to
 
-// // if(email=='saad' || password == '123456'){
-// //     document.write('login successful')
-// // }
-// // else{
-// //     document.write('Invalid username or Password')
-// // }
 
-// // = assigning operator
-// // == value match
-// // === value k sath datatype bhi check
-// // && left and right dono ka true hona zaruri hai
-// // || koi bhi ek side ka true hona zaruri hai
-// // < less than
-// // > greater
-// // <= less than equal to
-// // >= greater than equal to
-// // != not equal to 
-
-// var userInput = +prompt('Enter Percentage')
-
-// if(userInput >= 80 && userInput < 101){
-//     document.write('A+')
-// }
-// else if(userInput >=70 && userInput < 80){
-//     document.write('A')
-// }
-
-// else if(userInput >=60 && userInput < 70){
-//     document.write('B')
-// }
-
-// else if(userInput >=50 && userInput < 60){
-//     document.write('C')
-// }
-
-// else if(userInput >=40 && userInput < 50){
-//     document.write('D')
-// }
-// else{
-//     document.write('Nikal karwey')
+// if(5  === "5"){
+//   console.log(true)
+// }else{
+//     console.log(false)
 // }
 
 
-// naam ka prompt
-// english
-// urdu
-// islamiat
-// bio
-// chem
-// total = sab ka sum
-// percentage ka variable (total / 500) * 100
-// percentage ko check kara kar uska grade document.write mein
 
 
-// console.log('hello world')
+// var email = prompt("enter email")
+// var password = prompt("enter password");
 
-var num1=+prompt("enter value 1")
-var num2=+prompt("enter value 2")
-var op=prompt("Enter operator")
-if(op=="+"){
-    document.write(num1+num2)
+// if(email == 'furi' || password == '7890'){
+//     document.write('login succesful');
+// }else{
+//     document.write('invalid username or password');
+// }
+
+
+//marksheet program
+
+
+var userName = prompt("enter your name");
+var eng = +prompt("enter your numbers \n English:");
+var urdu = +prompt("enter your numbers \n urdu:");
+var pst = +prompt("enter your numbers \n PST:");
+var isl = +prompt("enter your numbers \n Islamiat");
+var math = +prompt("enter your numbers \n Math");
+var tot = eng + urdu + pst + isl + math;
+
+var percentage = (tot/500)*100;
+
+
+
+if(percentage >= 80 && percentage < 101){
+  document.write(userName +" your grade is A+")
 }
-else if(op=="-"){
-    document.write(num1-num2)
+else if(percentage >=70 && percentage <80){
+    document.write(userName +" your grade is A")
 }
-else if(op=="*"){
-    document.write(num1*num2)
+else if(percentage >=60 && percentage <70){
+    document.write(userName +" your grade is B")
 }
-else if(op=="/"){
-    document.write(num1/num2)
+else if(percentage >=50 && percentage <60){
+    document.write(userName +" your grade is C")
 }
-else if(op=="%"){
-    document.write(num1%num2)
+else if(percentage >=40 && percentage < 50){
+    document.write(userName +' your grade is D')
+} else if(percentage >100 ){
+    document.write("invalid percentage");
 }
 else{
-    document.write("Invalid Operator")
-}
+    document.write(userName +" you are fail")
+}  
+

@@ -1,0 +1,8 @@
+questions no 1
+for loop ke andr hote h 3 stages h first stage mn yh bolta h variable ko initialize kro
+initialize krne ke do method hote h 
+1)var i;
+for(i=0;)
+2)for(var i = 0;)
+dusra stage mn hum condition ko check krtwate h 
+3 stage mn ya to decreament krna hota h ya increament
