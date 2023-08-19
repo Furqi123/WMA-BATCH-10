@@ -41,9 +41,9 @@
 // }
 
 
-var tableVlue = +prompt("Enter value which you want table");
-var howManyTime = +prompt("Enter value you want this table print");
-for(i=1;i<=howManyTime;i++){
-    document.write(tableVlue + " X "+i+" = "+ tableVlue*i + "<br>")
-}
+// var tableVlue = +prompt("Enter value which you want table");
+// var howManyTime = +prompt("Enter value you want this table print");
+// for(i=1;i<=howManyTime;i++){
+//     document.write(tableVlue + " X "+i+" = "+ tableVlue*i + "<br>")
+// }
 

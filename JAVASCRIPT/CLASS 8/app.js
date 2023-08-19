@@ -20,3 +20,18 @@
 // alert(sub());
 // alert(sub());
 
+function user(a=2,b=3,c= "+"){
+    t1 = +prompt("enter value 1")
+    t2 = +prompt("enter value 2")
+    t3 = +prompt("enter operator")
+    if(t1 == ' ' && t2 == ' '&& t3==' '){
+        return a c b
+    }
+    else{
+       alert(t1 ,t3, t2 )
+    }
+    
+
+}
+
+user();
