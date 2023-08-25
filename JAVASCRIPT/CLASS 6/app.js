@@ -34,3 +34,9 @@
 //     }
 //     document.write("<br>")
 //  }
+
+
+var st = '*';
+for (var i = 1<=5;i++;){
+  console.log(st*i + "<br>")
+}

@@ -37,36 +37,72 @@
 //marksheet program
 
 
-var userName = prompt("enter your name");
-var eng = +prompt("enter your numbers \n English:");
-var urdu = +prompt("enter your numbers \n urdu:");
-var pst = +prompt("enter your numbers \n PST:");
-var isl = +prompt("enter your numbers \n Islamiat");
-var math = +prompt("enter your numbers \n Math");
-var tot = eng + urdu + pst + isl + math;
+// var userName = prompt("enter your name");
+// var eng = +prompt("enter your numbers \n English:");
+// var urdu = +prompt("enter your numbers \n urdu:");
+// var pst = +prompt("enter your numbers \n PST:");
+// var isl = +prompt("enter your numbers \n Islamiat");
+// var math = +prompt("enter your numbers \n Math");
+// var tot = eng + urdu + pst + isl + math;
 
-var percentage = (tot/500)*100;
+// var percentage = (tot/500)*100;
 
 
 
-if(percentage >= 80 && percentage < 101){
-  document.write(userName +" your grade is A+")
-}
-else if(percentage >=70 && percentage <80){
-    document.write(userName +" your grade is A")
-}
-else if(percentage >=60 && percentage <70){
-    document.write(userName +" your grade is B")
-}
-else if(percentage >=50 && percentage <60){
-    document.write(userName +" your grade is C")
-}
-else if(percentage >=40 && percentage < 50){
-    document.write(userName +' your grade is D')
-} else if(percentage >100 ){
-    document.write("invalid percentage");
-}
-else{
-    document.write(userName +" you are fail")
-}  
+// if(percentage >= 80 && percentage < 101){
+//   document.write(userName +" your grade is A+")
+// }
+// else if(percentage >=70 && percentage <80){
+//     document.write(userName +" your grade is A")
+// }
+// else if(percentage >=60 && percentage <70){
+//     document.write(userName +" your grade is B")
+// }
+// else if(percentage >=50 && percentage <60){
+//     document.write(userName +" your grade is C")
+// }
+// else if(percentage >=40 && percentage < 50){
+//     document.write(userName +' your grade is D')
+// } else if(percentage >100 ){
+//     document.write("invalid percentage");
+// }
+// else{
+//     document.write(userName +" you are fail")
+// } 
+
+
+// var language = prompt('enter your language')
+// if(language == 'javascript'){
+//     var city = prompt('enter your city')
+//     if(city == 'karachi'){
+//         var exp = +prompt('enter your experience');
+//         if(exp === '2 years'){
+//             console.log('you are hired');
+//         }else{
+//             console.log('barhe hokr ao');
+//         }
+//     }else{
+//         console.log('karachi ajao');
+//     }
+// }else{
+//     console.log('javascript sikho')
+// }
+
+//ek statement mn surf ek he if aur else hota h
+
+
+// var userName = prompt('enter your name') || 'please provide name'
+// var is = userName && 'yes'
+// console.log(is)
+// console.log(userName);
+
+
+// var userName = prompt('enter your name')
+// if(userName){
+//     console.log(userName)
+// }else{
+//     console.log('enter name');
+// }
+
+
 

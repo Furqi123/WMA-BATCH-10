@@ -3,10 +3,6 @@
 // var arr2 = arr.slice(0);
 // console.log(arr2);
 
-// var num = 5
-// var result = ++num + num++ + num + ++num - --num
-  //           6    +  6    + 7   +  8    -   7 = 20
-// document.write(result)
 
 
 
@@ -46,4 +42,44 @@
 // for(i=1;i<=howManyTime;i++){
 //     document.write(tableVlue + " X "+i+" = "+ tableVlue*i + "<br>")
 // }
+
+//sir ghous
+//javascript mn length ek hydro function h
+//FIFO AND LIFO METHOD
+
+
+// var cities = ['karachi','sukkur','hyderabad','multan','islamabad'];
+// var newData = cities.splice(1,4)
+// console.log("new data==>",newData)
+// console.log("old data==>",cities);
+
+
+
+//loop
+// var table = prompt("enter table")
+// var tableVlue = prompt("enter table value")
+// for(var i = 1; i<=tableVlue;i++){
+//     console.log(table + " x "+i+" = "+table*i)
+// }
+
+//sir ishaq 
+// kisi kaam ko baar baar krwana hoto hum us chees keliye hum loop use krte h
+// var cities = ['karachi','lahore','peshawar','islamabad']
+// var city = prompt('write a city name')
+// var found = false;
+
+// for(var i = 0; i < cities.length; i++){
+// if(city.toLowerCase() === cities[i]){
+    
+//     console.log('found '+ city)
+//     found = true
+//    break;
+// } 
+// }
+
+// if(found == false){
+//     console.log(city + " not found")
+// }
+
+
 

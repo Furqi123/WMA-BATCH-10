@@ -29,10 +29,10 @@
 
 //variable naam standered rkhne ke 2 tariqe hote h
 //1)camelcase (userName,firstName)
-//2)
+//2)snake case
 
 
-// it is called define error
+// it is called undefine error
 // var firstName = "furqan";
 // var userName = "furi";
 // document.write(a);

@@ -1,6 +1,6 @@
 // infinite loop
 // for(var i = 1; i>0;i++){
-//     break
+
 //     console.log(i)
 // }
 

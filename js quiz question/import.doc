@@ -9,3 +9,57 @@ dusra stage mn hum condition ko check krtwate h
 
 questions no 2
 indexof , Lastindexof , CharAt ka question h js ke quiz mn  
+
+questions no 3
+poori js mn 6 false value hoti h 
+
+1)null
+2)undefined
+3)false
+4)nan
+5)0
+6)” ”
+
+questions no 3
+var studdents = [‘furi’,’ghous’,’ahmed’];
+students[5]; = ‘abc’;
+console.log(students)
+
+interview ka question h iska answer kiya ayega
+
+questions no 4
+interview mn pucha jata h pop kiya return krta h to iska answer h jo value yeh delete krta h wo return krta h
+
+push arr ki length return krta h  
+
+shift arr ki jo  value delete krta h wo return krta h
+
+unshift arr ki length return krta h  
+ 
+aur splice mn agr value delete krenge to wo yeh value array ki form  mn return krega. Aur agr hm splice mn koi value delete kre aur sath mn kuch add bh kre to phr bh humai ye deleted value he return krega array ki form mn. aur agr hum splice mn koi bhi value delete nh kreyae bs add krwaye tb phr yeh empty arry return krega
+
+questions no 5
+splice aur slice kiya krta h 
+slice ek naya arry return krta h
+splice aapka jo existing array hota hena whi return krta h 
+
+
+questions no 6
+FIFO AND LIFO METHOD
+questions no 7
+
+array ki type kiya h = object
+
+questions no 8
+
+ agr wo index number exist he nh krta to return kiya krega aur new arry mn kiya hoga
+
+var cities = ['karachi','sukkur','hyderabad','multan','islamabad'];
+var newData = cities.splice(7,5,'faislabad','muree','peshawar','skardu')
+console.log("new data==>",newData)
+console.log("old data==>",cities);
+
+
+
+
+
