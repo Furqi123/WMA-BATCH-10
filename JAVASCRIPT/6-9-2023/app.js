@@ -1,40 +1,7 @@
 // var  date = new Date();
-// var  day = date.getDate();
-// var   month = date.getMonth();
-// var   year = date.getFullYear();
-// console.log(day,month+1,year)
-
-var  date = new Date(prompt(""));
-console.log(date)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// var day = date.getDay()
+// var week = ["Sunday","Monday","tuesday","wednesday","Thursday","Friday","Saturday"]
+// console.log(week[day]);
 
 
 
@@ -67,3 +34,30 @@ console.log(date)
 
 
 
+//task 2
+// var ramadanDate = new Date("2024 March,11");
+// var currentDate = new Date();
+// var milli = ramadanDate - currentDate;
+// var  second = Math.floor( milli / 1000);
+// var minut =  Math.floor (second / 60);
+// var hour =  Math.floor(minut/60);
+// var days = Math.floor(hour/24);
+// var month = Math.floor(days % 365/30)
+
+
+// console.log ( milli + " Millisecond left");
+// console.log(second + " Second left");
+// console.log(minut+" Minutes left");
+// console.log(hour+" Hours left");
+// console.log(days+" Days left");
+// console.log(month+" Months left");
+
+
+//task 3
+//age calculator
+//  var  currentDate = new Date();
+// var  birthDate = new Date(prompt(""));
+// var  currentYear = currentDate.getFullYear();
+// var   birthYear = birthDate.getFullYear();
+// var  calcu = currentYear - birthYear
+// console.log("You are " + calcu + " Years Old")
