@@ -35,8 +35,29 @@
 //     document.write("<br>")
 //  }
 
+// sir ghous class 28
+// var city = ['karachi','peshawar','islamabad','lahore'] 
+// var userInput = prompt("enter your city");
+// var flag = false;
 
-var st = '*';
-for (var i = 1<=5;i++;){
-  console.log(st*i + "<br>")
-}
+// for(var i = 0; i<city.length;i++){
+//   if(userInput === city[i]){
+//      flag = true
+//   }
+// }
+
+// if(flag){
+//   console.log('mil gya')
+// }else{
+//   console.log('nh mila')
+// }
+
+// var userInput = prompt("enter yor word");
+// for(var i = userInput;)
+
+
+// if(userInput === userInput){
+//   console.log("it is pendilom")
+// }else{
+//   console.log("its not")
+// }
