@@ -62,10 +62,17 @@
 //     i++;
 // }
 
+// var startValue = +prompt("enter start Value");
+// var endValue = +prompt("enter end Value");
+
+// var i = startValue;
 // do{
 //     console.log(i)
-//     i--
-// } while(i>=0)
+//     i++
+// } while(i<=endValue)
+
+
+
 
 
 

@@ -1,0 +1,28 @@
+.oneol li{
+    color: rgb(209, 9, 86);
+}
+
+
+.oneol2 li{
+   color: blue;
+}
+
+.twool li{
+    color: rgb(9, 174, 9);
+}
+
+.twool ol li{
+    color: blueviolet;
+}
+
+.twool2 dt{
+    color: crimson;
+}
+
+.twool2 dd{
+    color: rgb(36, 181, 133);
+}
+
+.threeol li{
+   color: blueviolet;
+}

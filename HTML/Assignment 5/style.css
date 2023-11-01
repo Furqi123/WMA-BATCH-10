@@ -1,0 +1,42 @@
+.search{
+    border-radius: 50px;
+    width: 320px;
+    height: 30px;
+   
+}
+
+.button{
+  margin-top: -540px;
+  margin-left: 180px;
+}
+
+.btn{
+    margin-top: -120px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 140px;
+   justify-items: center;
+   margin-left: 180px;
+  
+}
+
+.btn1{
+    width: 130px;
+    height: 35px;
+    border: none;
+    
+    
+}
+
+.vid{
+    margin-left: 300px;
+}
+
+.vid1{
+    margin-left: 300px;
+}
+
+.vid2{
+    margin-left: 300px;
+}
